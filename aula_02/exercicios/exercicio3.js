@@ -13,10 +13,11 @@ let salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - desco
 
 // SALARIO LIQUIDO FORMATADO
 console.log(
-    "Salario Liquido: ",
+    "Salario Liquido: ", 
     new Intl.NumberFormat("pt-BR", {
       style: "currency",
       currency: "BRL",
     }).format(salarioLiquido)
   );
+  
   
