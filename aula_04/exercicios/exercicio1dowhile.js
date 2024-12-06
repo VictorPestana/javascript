@@ -13,3 +13,4 @@ do {
 } while (numero != 0);
 
 console.log("A soma dos numeros positivos é: ", positivos);
+
